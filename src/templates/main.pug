@@ -1,0 +1,59 @@
+- const mainContent = LANG.main
+- const assortmentContent = LANG.assortment;
+
+main#pageTop
+    section.main
+        .container
+            .main__logo-wrap
+                a(href=mainContent.logo_path).main__logo= mainContent.logo
+                .nav__burger
+                    span.nav__burger-line
+            .main__content-block
+                ul.nav
+                    each item in navContent
+                        li.nav__item
+                            a(href=item.nav_link)= item.nav_path
+                .main__content
+                    p.main__promotion= mainContent.promotion1
+                    p.main__promotion= mainContent.promotion2
+                    p.main__timer-text= mainContent.timer_text
+                    .countdown#countdown
+                        .countdown-number
+                            span.hours.countdown-time= mainContent.remaining_time
+                            span.countdown-text= mainContent.hours
+                        .countdown-number
+                            span.minutes.countdown-time= mainContent.remaining_time
+                            span.countdown-text= mainContent.minutes
+                        .countdown-number
+                            span.seconds.countdown-time= mainContent.remaining_time
+                            span.countdown-text= mainContent.seconds
+                    .main__text-wrapper
+                        p.main__text= mainContent.text
+                        a(href=mainContent.btn_path).main__button-wrapper.js_rotated-btn
+                            .main__button
+                                .circle
+                                    svg(version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve")
+                                        path(id="circlePath" d="M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0" fill="none" stroke-width="40" stroke="#FFDD67")
+                                        g
+                                            text(fill="#000" x="180" dy="5")
+                                                textPath(xlink:href="#circlePath")= mainContent.btn_text
+                                            text(fill="#000" dy="5")
+                                                textPath(xlink:href="#circlePath")= mainContent.btn_text
+                            .main__button-arrow
+                                svg(class="main__button-img" width="37" height="20" viewBox="0 0 37 20" fill="none" xmlns="http://www.w3.org/2000/svg")
+                                    path(class="stroke" d="M-6.10352e-05 10.0267H34.3006M34.3006 10.0267L22.7467 1.00021M34.3006 10.0267L22.7467 18.3311" stroke-width="2.10086")
+            .main__central
+                img&attributes(mainContent.img).main__img
+                h1.main__title= mainContent.title
+    block reasons
+        include reasons.pug
+    block assortment
+        include assortment.pug
+    block promotion
+        include promotion.pug
+    block sizes
+        include sizes.pug
+    block testimonials
+        include testimonials.pug
+    block order
+        include order.pug

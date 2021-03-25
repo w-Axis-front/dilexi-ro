@@ -1,0 +1,621 @@
+{
+  "locale": "ro",
+  "price": 159,
+  "oldPrice": 318,
+  "currency": "lei",
+  "nav": [
+    {
+      "nav_path": "Bluze Dilexi",
+      "nav_link": "#reasons"
+    },
+    {
+      "nav_path": "Asortiment",
+      "nav_link": "#assortment"
+    },
+    {
+      "nav_path": "Stoc",
+      "nav_link": "#promotion"
+    },
+    {
+      "nav_path": "Mărimi",
+      "nav_link": "#sizes"
+    },
+    {
+      "nav_path": "Recenzii",
+      "nav_link": "#testimonials"
+    },
+    {
+      "nav_path": "Comandă",
+      "nav_link": "#order"
+    }
+  ],
+  "main": {
+    "logo_path": "/",
+    "logo": "Dilexi",
+    "promotion1": "-75%",
+    "promotion2": "la bluze!",
+    "timer_text": "Până la sfârșitul promoției rămâne:",
+    "remaining_time": "00",
+    "seconds": "secunde",
+    "hours": "ore",
+    "minutes": "minute",
+    "text": "Grăbește-te să comanzi bluze universale la modă\n la un super preț!",
+    "img": {
+      "src": "img/main.jpg",
+      "alt": "Girl",
+      "srcset": "img/main@2x.jpg 2x"
+    },
+    "title": "Lichidarea depozitului mărcii italiene Dilexi!",
+    "btn": [
+      "A",
+      "L",
+      "E",
+      "G",
+      "E",
+      "B",
+      "L",
+      "U",
+      "Z",
+      "A"
+    ],
+    "btn_text": "ALEGE BLUZA",
+    "btn_path": "#assortment"
+  },
+  "reasons": {
+    "title": "4 motive pentru a comanda o bluză Dilexi:",
+    "accordion": [
+      {
+        "title": "Confortabil",
+        "text": "Amestecul de bumbac și poliester este plăcut pentru corp, iar bluza poate fi purtată atât vara, cât și în timpul demi-sezonului."
+      },
+      {
+        "title": "Unversală",
+        "text": "Gulerul înalt, designul de culoare solidă și potrivirea largă sunt ideale pentru orice tip de corp."
+      },
+      {
+        "title": "Practic",
+        "text": "Produsul nu necesită întreținere complexă, țesătura poate rezista la uzură îndelungată și multe spălări, menținând în același timp culoarea și calitatea."
+      },
+      {
+        "title": "Stilat",
+        "text": "Această bluză va fi un plus excelent pentru orice look - casual, romantic, sportiv, minimalist etc."
+      }
+    ],
+    "img": {
+      "src": "img/reasons.jpg",
+      "alt": "Girl photo",
+      "srcset": "img/reasons.jpg 2x"
+    }
+  },
+  "assortment": {
+    "title": "Alegeți culoarea preferată",
+    "sub_title1": "Яркие",
+    "sub_title2": "Пастель",
+    "sub_title3": "Монохром",
+    "cards": [
+      {
+        "title": "Orhideea delicată de lavandă",
+        "id": 11,
+        "additional_class": "pastel4",
+        "img": {
+          "src": "img/products/pastel/pastel_4.png",
+          "alt": "Pastel blouse",
+          "srcset": "img/products/pastel/pastel_4@2x.png 2x"
+        },
+        "text": "O nuanță rafinată de liliac este perfectă pentru naturi romantice și sensibile."
+      },
+      {
+        "title": "Pinotaj violet închis",
+        "id": 1,
+        "additional_class": "bright2",
+        "img": {
+          "src": "img/products/bright/bright_2.png",
+          "alt": "Bright blouse",
+          "srcset": "img/products/bright/bright_2@2x.png 2x"
+        },
+        "text": "O culoare bogată violet închis este adesea aleasă de oamenii creativi, ar trebui să vă inspirați și voi."
+      },
+      {
+        "title": "Cireș intens Besseya",
+        "id": 4,
+        "additional_class": "bright5",
+        "img": {
+          "src": "img/products/bright/bright_5.png",
+          "alt": "Bright blouse",
+          "srcset": "img/products/bright/bright_5@2x.png 2x"
+        },
+        "text": "Cireșul închis poate fi ușor combinat cu alte nuanțe și conferă aspectului o notă nobilă."
+      },
+      {
+        "title": "Orientul roșu aprins",
+        "id": 0,
+        "additional_class": "bright1",
+        "img": {
+          "src": "img/products/bright/bright_1.png",
+          "alt": "Bright blouse",
+          "srcset": "img/products/bright/bright_1@2x.png 2x"
+        },
+        "text": "O culoare aprinsă pentru fetele curajoase care sunt pregătite pentru o atenție sporită a bărbaților."
+      },
+      {
+        "title": "Lupin alb mat",
+        "id": 12,
+        "additional_class": "monochrome1",
+        "img": {
+          "src": "img/products/monochrome/monochrome_1.png",
+          "alt": "Monochromatic blouse",
+          "srcset": "img/products/monochrome/monochrome_1@2x.png 2x"
+        },
+        "text": "O culoare nobilă versatilă potrivită pentru orice situație, indiferent dacă merge la birou sau la o primă întâlnire."
+      },
+      {
+        "title": "Meyer galben muștar",
+        "id": 5,
+        "additional_class": "bright6",
+        "img": {
+          "src": "img/products/bright/bright_6.png",
+          "alt": "Bright blouse",
+          "srcset": "img/products/bright/bright_6@2x.png 2x"
+        },
+        "text": "Nuanțele de galben îi înveselesc nu numai pe cei din jur, ci și pe cei care îl poartă."
+      },
+      {
+        "title": "Hedera de măsline verzui",
+        "id": 7,
+        "additional_class": "bright8",
+        "img": {
+          "src": "img/products/bright/bright_8.png",
+          "alt": "Bright blouse",
+          "srcset": "img/products/bright/bright_8@2x.png 2x"
+        },
+        "text": "Culoarea verde magnetică va fi o gură de aer proaspăt într-o metropolă înfundată."
+      },
+      {
+        "title": "Corax negru de cărbune",
+        "id": 14,
+        "additional_class": "monochrome3",
+        "img": {
+          "src": "img/products/monochrome/monochrome_3.png",
+          "alt": "Monochromatic blouse",
+          "srcset": "img/products/monochrome/monochrome_3@2x.png 2x"
+        },
+        "text": "Neagrul de bază nu numai că te face subțire și îțî extinde vizual silueta, dar poate fi combinat cu ușurință cu orice articol din dulap."
+      },
+      {
+        "title": "Azur albastru Indigo",
+        "id": 2,
+        "additional_class": "bright3",
+        "img": {
+          "src": "img/products/bright/bright_3.png",
+          "alt": "Bright blouse",
+          "srcset": "img/products/bright/bright_3@2x.png 2x"
+        },
+        "text": "Nuanța rece de albastru cobalt este perfectă pentru un aspect de afaceri și este excelentă pentru încrederea în sine."
+      },
+      {
+        "title": "Stanum gri fumuriu",
+        "id": 13,
+        "additional_class": "monochrome2",
+        "img": {
+          "src": "img/products/monochrome/monochrome_2.png",
+          "alt": "Monochromatic blouse",
+          "srcset": "img/products/monochrome/monochrome_2@2x.png 2x"
+        },
+        "text": "Nuanțele de grafit deschis combină eleganța și misterul."
+      },
+      {
+        "title": "Mentol verde mentă",
+        "id": 3,
+        "additional_class": "bright4",
+        "img": {
+          "src": "img/products/bright/bright_4.png",
+          "alt": "Bright blouse",
+          "srcset": "img/products/bright/bright_4@2x.png 2x"
+        },
+        "text": "Umbra unei nimfe de pădure va adăuga culori și magie vieții tale."
+      },
+      {
+        "title": "Migdale ușoare de nisip",
+        "id": 10,
+        "additional_class": "pastel3",
+        "img": {
+          "src": "img/products/pastel/pastel_3.png",
+          "alt": "Pastel blouse",
+          "srcset": "img/products/pastel/pastel_3@2x.png 2x"
+        },
+        "text": "Culoarea delicată caldă va sublinia subtil frumusețea naturală și nu va atrage atenția asupra sa."
+      },
+      {
+        "title": "Lobelia albastru mat",
+        "id": 6,
+        "additional_class": "bright7",
+        "img": {
+          "src": "img/products/bright/bright_7.png",
+          "alt": "Bright blouse",
+          "srcset": "img/products/bright/bright_7@2x.png 2x"
+        },
+        "text": "Albastrul intens emană chic regal - nimeni nu va ghici prețul adevărat al acestei bluze."
+      },
+      {
+        "title": "Gri-bej Ivory",
+        "id": 8,
+        "additional_class": "pastel1",
+        "img": {
+          "src": "img/products/pastel/pastel_1.png",
+          "alt": "Pastel blouse",
+          "srcset": "img/products/pastel/pastel_1@2x.png 2x"
+        },
+        "text": "Culoarea pastel întruchipează liniștea și calmul, de asemenea, arată avantajoasă în orice combinație."
+      },
+      {
+        "title": "Phoebe albastru pal",
+        "id": 9,
+        "additional_class": "pastel2",
+        "img": {
+          "src": "img/products/pastel/pastel_2.png",
+          "alt": "Pastel blouse",
+          "srcset": "img/products/pastel/pastel_2@2x.png 2x"
+        },
+        "text": "O nuanță pură și nobilă ajută la găsirea armoniei și la inceperea la o nouă zi cu un zâmbet."
+      }
+    ],
+    "sizes_text": "Marimea:",
+    "count_text": "Unități:",
+    "count_number": 1,
+    "sizes": [
+      {
+        "size": "S",
+        "class_ending": "-s"
+      },
+      {
+        "size": "M",
+        "class_ending": "-m"
+      },
+      {
+        "size": "L",
+        "class_ending": "-l"
+      },
+      {
+        "size": "XL",
+        "class_ending": "-xl"
+      },
+      {
+        "size": "XXL",
+        "class_ending": "-xxl"
+      },
+      {
+        "size": "XXXL",
+        "class_ending": "-xxxl"
+      },
+      {
+        "size": "4XL",
+        "class_ending": "-4xl"
+      },
+      {
+        "size": "5XL",
+        "class_ending": "-5xl"
+      },
+      {
+        "size": "6XL",
+        "class_ending": "-6xl"
+      }
+    ],
+    "btn": "Cumpără",
+    "btn_img": {
+      "src": "img/svg/bag.svg",
+      "alt": "Bag"
+    },
+    "link_path": "#order",
+    "link_text": "Перейти к форме заказа"
+  },
+  "promotion": {
+    "title": "Stoc!",
+    "terms": "1+1=3",
+    "subtitle": "Te îndoiești de ce culoare să alegi? Comandați două bluze și obțineți-o pe cea de-a treia CADOU!",
+    "note": "*Când cumpărați de la  două unități ale produsului, profitați automat de promoție și primiți a treia bluză cadou. Operatorul nostru va specifica culoarea și dimensiunea dorită a produsului la plasarea unei comenzi.",
+    "img": {
+      "src": "img/promotion.jpg",
+      "alt": "Promotion",
+      "srcset": "img/promotion@2x.jpg 2x"
+    }
+  },
+  "sizes": {
+    "title": "Tabela mărimilor",
+    "subtitle": "Nu sunteți sigur de mărime? Verificați-văcu tabela noastră",
+    "table_title1": "Dimensiunea internațională",
+    "table_title2": "Dimensiunea națională",
+    "table_title3": "Circumferința pieptului",
+    "table_title4": "Lungimea mânecii",
+    "table_title5": "Lungimea produsului",
+    "rows": [
+      {
+        "text1": "S",
+        "text2": "US: 4 / UK: 8 / EU: 34",
+        "text3": "98 cm / 38.6″",
+        "text4": "27 cm / 10.6″",
+        "text5": "67 cm / 26.4″"
+      },
+      {
+        "text1": "M",
+        "text2": "US: 6 / UK: 10 / EU: 36",
+        "text3": "102 cm / 40.2″",
+        "text4": "28 cm / 11.0″",
+        "text5": "68 cm / 26.8″"
+      },
+      {
+        "text1": "L",
+        "text2": "US: 8 / UK: 12 / EU: 38",
+        "text3": "106 cm / 41.7″",
+        "text4": "29 cm / 11.4″",
+        "text5": "69 cm / 27.2″"
+      },
+      {
+        "text1": "XL",
+        "text2": "US: 8 / UK: 12 / EU: 38",
+        "text3": "110 cm / 43.3″",
+        "text4": "30 cm / 11.8″",
+        "text5": "70 cm / 27.6″"
+      },
+      {
+        "text1": "XXL",
+        "text2": "US: 10 / UK: 14 / EU: 40",
+        "text3": "114 cm / 44.9″",
+        "text4": "31 cm / 12.2″",
+        "text5": "71 cm / 30.0″"
+      },
+      {
+        "text1": "XXXL",
+        "text2": "US: 12 / UK: 16 / EU: 42",
+        "text3": "120 cm / 47.2″",
+        "text4": "32 cm / 12.6″",
+        "text5": "72 cm / 30.4″"
+      },
+      {
+        "text1": "4XL",
+        "text2": "US: 12 / UK: 16 / EU: 42",
+        "text3": "124 cm / 48.8″",
+        "text4": "33 cm / 13.0″",
+        "text5": "73 cm / 30.8″"
+      },
+      {
+        "text1": "5XL",
+        "text2": "US: 14 / UK: 18 / EU: 44",
+        "text3": "128 cm / 50.4″",
+        "text4": "34 cm / 13.4″",
+        "text5": "74 cm / 31.2″"
+      },
+      {
+        "text1": "6XL",
+        "text2": "US: 16 / UK: 20 / EU: 46",
+        "text3": "132 cm / 51.97″",
+        "text4": "35 cm / 13.8″",
+        "text5": "75 cm / 29.53″"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Ei poartă deja bluze Dilexi",
+    "slides": [
+      {
+        "customer_name": "Constantin Haiduc",
+        "text": "Frumos lucru! Livrare super rapidă, totul a venit exact la timp - i-am dat-o soției mele la un eveniment, părea că este fericită.",
+        "img1": {
+          "src": "img/testimonials/1_1.jpg",
+          "alt": "Customer photo 1",
+          "srcset": "img/testimonials/1_1@2x.jpg 2x"
+        },
+        "img2": {
+          "src": "img/testimonials/1_2.jpg",
+          "alt": "Customer photo 2",
+          "srcset": "img/testimonials/1_2@2x.jpg 2x"
+        },
+        "img3": {
+          "src": "img/testimonials/1_3.jpg",
+          "alt": "Customer photo 3",
+          "srcset": "img/testimonials/1_3@2x.jpg 2x"
+        }
+      },
+      {
+        "customer_name": "Elena Dragan",
+        "text": "Mi s-a potrivit, o bluză tare super !! Se așează elegant și se potrivește,confortabilă și, în general, îmi place foarte mult țesătura de bumbac. crezi că această culoare mi se potrivește?",
+        "img1": {
+          "src": "img/testimonials/2_1.jpg",
+          "alt": "Customer photo 1",
+          "srcset": "img/testimonials/2_1@2x.jpg 2x"
+        },
+        "img2": {
+          "src": "img/testimonials/2_2.jpg",
+          "alt": "Customer photo 2",
+          "srcset": "img/testimonials/2_2@2x.jpg 2x"
+        }
+      },
+      {
+        "customer_name": "Ilinca Husu",
+        "text": "Am comandat două bluze de culoare gri și galben, calitatea țesăturii este FOARTE bună. Stilul este normal, lungimea este moderată, culoarea suculentă ... ce mai este nevoie .."
+      },
+      {
+        "customer_name": "Geta Lazar",
+        "text": "Am deschis,amprobat ... super !!! Fetelor, sunt foarte fericită ... totul mi-a mers bine - comandă, nu vei regreta! O vom purta pentru a lucra cu plăcere !!!!",
+        "img1": {
+          "src": "img/testimonials/4_1.jpg",
+          "alt": "Customer photo 1",
+          "srcset": "img/testimonials/4_1@2x.jpg 2x"
+        },
+        "img2": {
+          "src": "img/testimonials/4_2.jpg",
+          "alt": "Customer photo 2",
+          "srcset": "img/testimonials/4_2@2x.jpg 2x"
+        },
+        "img3": {
+          "src": "img/testimonials/4_3.jpg",
+          "alt": "Customer photo 3",
+          "srcset": "img/testimonials/4_3@2x.jpg 2x"
+        }
+      },
+      {
+        "customer_name": "Maria Cercer",
+        "text": "Am cumpărat asta în cinci culori și nu m-am putut hotărî asupra uneia :))). Împărtășiți cu ce purtați de obicei?"
+      },
+      {
+        "customer_name": "Gabriela Ușurelu",
+        "text": "Am ales mult timp, am decis să cumpăr albastru, este bun, dar culoarea din imagine este mai suculentă ... deși poate a sosit momentul să ies din obișnuința culorilor strălucitoare? Și așa - totul a mers bine comandat XL pentru 48",
+        "img1": {
+          "src": "img/testimonials/6_1.jpg",
+          "alt": "Customer photo 1",
+          "srcset": "img/testimonials/6_1@2x.jpg 2x"
+        }
+      },{
+        "customer_name": "Ana Breuscan",
+        "text": "Am primit marfa în 2 săptămâni. Țesătura este un amestec de poliester cu bumbac, netranslucentă, plăcută corpului. Ce crezi despre culoarea muștarului? După părerea mea, este perfect pentru brunete.",
+        "img1": {
+          "src": "img/testimonials/7_1.jpg",
+          "alt": "Customer photo 1",
+          "srcset": "img/testimonials/7_1@2x.jpg 2x"
+        },
+        "img2": {
+          "src": "img/testimonials/7_2.jpg",
+          "alt": "Customer photo 2",
+          "srcset": "img/testimonials/7_2@2x.jpg 2x"
+        },
+        "img3": {
+          "src": "img/testimonials/7_3.jpg",
+          "alt": "Customer photo 3",
+          "srcset": "img/testimonials/7_3@2x.jpg 2x"
+        }
+      },{
+        "customer_name": "Geta Grozavu",
+        "text": "Calitate excelentă și cel mai important, dimensiunea este aceeași !!!! unu la unu! Mă bucur atât de mult, mulțumesc foarte mult vânzătorului și recenziilor, sincer nu mă așteptam să se așeze atât de bine))))"
+      },{
+        "customer_name": "Mariana Cercel",
+        "text": "Mărfurile corespund descrierii, țesătura este densă, moale, croială de calitate, comandată în două culori. Îl voi purta.",
+        "img1": {
+          "src": "img/testimonials/9_1.jpg",
+          "alt": "Customer photo 1",
+          "srcset": "img/testimonials/9_1@2x.jpg 2x"
+        }
+      },{
+        "customer_name": "Nicoleta Diacon",
+        "text": "bluză de o calitate excelentă și, de asemenea, în mod neașteptat ... culoarea este ca în imagine! Sunt rareori atât de norocoasă (am mărimea 52, am comandat XXL, s-a așezat ca o mănușă. Mulțumesc!"
+      },{
+        "customer_name": "Leontina Lobont",
+        "text": "Oh, arată pe mine la fel ca la model)) - liberă, această bluză ascunde lucruri în plus și se potrivește cu aproape orice ocazie. Cred că este cel mai mult pentru vară. O port cu o fustă sau blugi.",
+        "img1": {
+          "src": "img/testimonials/11_1.jpg",
+          "alt": "Customer photo 1",
+          "srcset": "img/testimonials/11_1@2x.jpg 2x"
+        },
+        "img2": {
+          "src": "img/testimonials/11_2.jpg",
+          "alt": "Customer photo 2",
+          "srcset": "img/testimonials/11_2@2x.jpg 2x"
+        }
+      },{
+        "customer_name": "Mihaela Diaconu",
+        "text": "Se potrivește perfect în mărimea M, țesătura este frumoasă. Mulțumesc vânzătorului.",
+        "img1": {
+          "src": "img/testimonials/12_1.jpg",
+          "alt": "Customer photo 1",
+          "srcset": "img/testimonials/12_1@2x.jpg 2x"
+        },
+        "img2": {
+          "src": "img/testimonials/12_2.jpg",
+          "alt": "Customer photo 2",
+          "srcset": "img/testimonials/12_2@2x.jpg 2x"
+        },
+        "img3": {
+          "src": "img/testimonials/12_3.jpg",
+          "alt": "Customer photo 3",
+          "srcset": "img/testimonials/12_3@2x.jpg 2x"
+        }
+      },{
+        "customer_name": "Alina Teodorescu",
+        "text": "Am comandat deja a doua bluză, mi-a plăcut foarte mult. Stilul și calitatea sunt super, o poți purta în fiecare zi. Dar nu pot găsi bijuterii pentru ea.",
+        "img1": {
+          "src": "img/testimonials/13_1.jpg",
+          "alt": "Customer photo 1",
+          "srcset": "img/testimonials/13_1@2x.jpg 2x"
+        },
+        "img2": {
+          "src": "img/testimonials/13_2.jpg",
+          "alt": "Customer photo 2",
+          "srcset": "img/testimonials/13_2@2x.jpg 2x"
+        }
+      },
+      {
+        "customer_name": "Lucica Haiduc",
+        "text": "Ura!!! am primit, bluzele super! Eu, ca croitoreasă, îmi este greu ca sa îmi placă ceva, dar aici ... Cusăturile sunt uniforme, firele nu ies afară, gulerul nu este terminat, dar cred că așa ar trebui să fie, voi aștepta căldura și purta.))"
+      },
+      {
+        "customer_name": "Ovidia Olteanu",
+        "text": "Produsul este bun în calitate și croitorie. O voi purta, am ghicit perfect cu mărimea (am luat mai mult pentru a fi mai liberă). Țesătura este groasă, culoarea se potrivește, livrarea este rapidă.",
+        "img1": {
+          "src": "img/testimonials/15_1.jpg",
+          "alt": "Customer photo 1",
+          "srcset": "img/testimonials/15_1@2x.jpg 2x"
+        },
+        "img2": {
+          "src": "img/testimonials/15_2.jpg",
+          "alt": "Customer photo 2",
+          "srcset": "img/testimonials/15_2@2x.jpg 2x"
+        }
+      }
+    ]
+  },
+  "order": {
+    "title": "Grăbește-te să comanzi bluze universale la modă la un super preț!",
+    "subtitle": "Comanda dumneavoastră:",
+    "number_text": "Numărul de articole din coș:",
+    "number": 0,
+    "img": {
+      "src": "img/gift.png",
+      "alt": "Gift",
+      "srcset": "img/gift@2x.png 2x"
+    },
+    "gift_title": "Станьте участником акции. Выберите еще одну блузу и получите третью В ПОДАРОК!",
+    "gift_title_won": "Ai comandat două bluze și vei primi o a treia bluză CADOU!",
+    "gift_text": "Culoarea bluzei promoționale va fi specificată de operatorul nostru",
+    "table_title1": "Denumirea",
+    "table_title2": "Cantitatea",
+    "table_title3": "Mărimea",
+    "table_title4": "Prețul",
+    "table_size": "marimea",
+    "bin_img": {
+      "src": "img/svg/bin.svg",
+      "alt": "Bin"
+    },
+    "total_promo_text": "Preț fără reducere:",
+    "total": "€0",
+    "total_text": "Valoarea totală a comenzii:",
+    "name_placeholder": "Nume",
+    "phone_placeholder": "Telefon",
+    "button": "Comandă",
+    "empty_cart_err": "Vă rugăm să adăugați articolul în coșul de cumpărături",
+    "no_size_err": "Vă rugăm să indicați dimensiunea",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL",
+      "4XL",
+      "5XL",
+      "6XL"
+    ],
+    "btn_path": "#assortment"
+  },
+  "footer": {
+    "up_path": "#pageTop",
+    "logo_path": "/",
+    "logo": "Dilexi",
+    "item1": "Terms & Conditions",
+    "item1_path": "/",
+    "item2": "Privacy Policy",
+    "item2_path": "/",
+    "item3": "Feedback",
+    "item3_path": "/",
+    "copyright1": "2021 Copyright. All rights reserved.",
+    "copyright2": "© TerraLeads",
+    "acceptance": "By clicking the “order” button you confirm that you have read Privat Policy and give your consent to the procession of your personal data"
+  }
+}

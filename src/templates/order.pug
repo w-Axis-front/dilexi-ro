@@ -1,0 +1,59 @@
+- const orderContent = LANG.order;
+
+section.order#order
+  .container
+    h2.order__title= orderContent.title
+    p.order__subtitle= orderContent.subtitle
+    p.order__total-number
+      span= orderContent.number_text
+      span.js__total-items= orderContent.number
+    .order__gift
+      h3.order__gift-title= orderContent.gift_title
+      h3.order__gift-title-won= orderContent.gift_title_won
+      p.order__gift-text= orderContent.gift_text
+      img&attributes(orderContent.img).order__gift-img
+      a(href=mainContent.btn_path).main__button-wrapper.order__gift-button-wrapper.js_rotated-btn
+        .main__button.order__gift-button
+          .circle
+            svg(version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve")
+                path(id="circlePath" d="M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0" fill="none" stroke-width="40" stroke="#FFDD67")
+                g
+                    text(fill="#000" x="180" dy="5")
+                        textPath(xlink:href="#circlePath")= mainContent.btn_text
+                    text(fill="#000" dy="5")
+                        textPath(xlink:href="#circlePath")= mainContent.btn_text
+        .main__button-arrow
+          svg(class="main__button-img" width="37" height="20" viewBox="0 0 37 20" fill="none" xmlns="http://www.w3.org/2000/svg")
+            path(class="stroke" d="M-6.10352e-05 10.0267H34.3006M34.3006 10.0267L22.7467 1.00021M34.3006 10.0267L22.7467 18.3311" stroke-width="2.10086")
+    .order__table-wrapper
+      .order__table-title
+        .order__table-title0
+        .order__table-title1= orderContent.table_title1
+        .order__table-title2
+          p= orderContent.table_title2
+        .order__table-title3= orderContent.table_title3
+        .order__table-title4= orderContent.table_title4
+        .order__table-title5
+      .order__table-row
+        .order_count-title= orderContent.table_title2
+        .order_size-title= orderContent.table_title3
+        .order_price-title= orderContent.table_title4
+        .order_size-error= orderContent.no_size_err
+    p.order__total-promo
+      span= orderContent.total_promo_text
+      span.js__total-promo-price= orderContent.total
+    p.order__total
+      span= orderContent.total_text
+      span.js__total-price= orderContent.total
+    .order__empty-cart-err-wrapper
+      p#order__empty-cart-err= orderContent.empty_cart_err
+    form(class="order__form al-form" action="/land/order" method="POST")
+      select(class="al-country", name="country", style="display:none")
+      input#order-products(name="user_comment", type="hidden", val="")
+      .order__input-name
+        input(placeholder=orderContent.name_placeholder type="text" tabindex="1" minlength=3 required name="name" id="name-input")
+        label.order__input-label(for="name-input")
+      .order__input-phone
+        input(placeholder=orderContent.phone_placeholder type="tel" tabindex="2" minlength=3 required name="phone" id="phone-input")
+        label.order__input-label(for="phone-input")
+      button(class="button button-action order__form-btn js_order-submit disabled" type="submit")= orderContent.button

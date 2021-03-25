@@ -1,0 +1,95 @@
+body
+  font-family: $main-font-family
+  scroll-behavior: smooth
+  position: relative
+
+// Font icons
+.fico
+  display: inline-block
+
+  &::before
+    display: block
+
+.container
+  max-width: $container-xl
+  width: 100%
+  margin: 0 auto
+
+.button
+  background-color: $btnColor
+  display: block
+  width: 100%
+  font-weight: bold
+  font-size: 18px
+  line-height: 18px
+  text-align: center
+  padding-top: 21px
+  padding-bottom: 21px
+  border-radius: 30px
+  transition: .3s
+
+  &:visited
+    background-color: $btnColor
+
+  &:hover, &:focus, &:active, &:focus-visible
+    background-color: $mainColor
+
+.button-action
+  font-weight: 500
+  padding-top: 14px
+  padding-bottom: 14px
+  font-feature-settings: 'pnum' on, 'lnum' on
+  position: relative
+
+  &:hover, &:focus, &:active, &:focus-visible
+    background-color: $lightColor
+
+input
+  border: 1px solid $grey
+  vertical-align: middle
+  padding: 18px 15px
+  font-size: 18px
+  line-height: 24px
+  font-weight: 300
+  width: 100%
+  color: $lightTextColor
+
+  &::placeholder
+    color: $lightTextColor
+
+  //&:not(:placeholder-shown), &:focus
+      //border: 1px solid $textColor
+
+  &:invalid
+    box-shadow: none
+
+  &:-moz-submit-invalid
+    box-shadow: none
+
+  &:-moz-ui-invalid
+    box-shadow: none
+
+  &:invalid:focus:placeholder-shown, &:invalid:focus:not(:placeholder-shown), &:invalid:not(:focus):not(:placeholder-shown)
+    border: 1px solid $errorColor
+    color: $errorColor
+
+// max 991.9px
+@media screen and (max-width: $lg)
+  .container
+    max-width: $container-lg
+
+// max 767.9px
+@media screen and (max-width: $md)
+  .container
+    max-width: $container-md
+
+// max 575.9px
+@media screen and (max-width: $xs)
+  .container
+    max-width: $container-xs
+
+// max 359.9px
+@media screen and (max-width: $xxs)
+  .container
+    max-width: none
+    padding: 0 20px

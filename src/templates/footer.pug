@@ -1,0 +1,25 @@
+- const footerContent = LANG.footer;
+
+footer.footer
+    .container
+        a(href=footerContent.up_path).footer__up
+            svg(class="footer__up-img" width="35" height="20" viewBox="0 0 35 20" fill="none" xmlns="http://www.w3.org/2000/svg")
+                path(class="stroke" d="M33.762 18.4776L17.4026 2.11816L1.04313 18.4776" stroke-width="2")
+        .footer__content-block
+            .footer__logo-block
+                a(href=footerContent.logo_path).footer__logo= footerContent.logo
+            .footer__content.footer__content-arrow
+                a(href=navContent[0].nav_link).footer__content-item= navContent[0].nav_path
+                a(href=navContent[1].nav_link).footer__content-item= navContent[1].nav_path
+                a(href=navContent[2].nav_link).footer__content-item= navContent[2].nav_path
+            .footer__content
+                a(href=navContent[3].nav_link).footer__content-item= navContent[3].nav_path
+                a(href=navContent[4].nav_link).footer__content-item= navContent[4].nav_path
+                a(href=navContent[5].nav_link).footer__content-item= navContent[5].nav_path
+            .footer__content
+                a(href=footerContent.item1_path).footer__content-item= footerContent.item1
+                a(href=footerContent.item2_path).footer__content-item= footerContent.item2
+                a(href=footerContent.item3_path).footer__content-item= footerContent.item3
+        p.footer__copyright= footerContent.copyright1
+        p.footer__copyright= footerContent.copyright2
+        p.footer__copyright= footerContent.acceptance

@@ -1,0 +1,153 @@
+/*********** REASONS *************/
+.reasons {
+  padding-top: 100px;
+  margin-bottom: 90px;
+
+  &__content-wrapper {
+    padding: 0 102px;
+    display: flex;
+    overflow: hidden;
+  }
+
+  &__title {
+    font-family: $font-family;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 48px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    margin-bottom: 50px;
+    margin-right: 35px;
+  }
+
+  &__accordion {
+    min-height: 249px;
+  }
+
+  &__accordion-trigger {
+    cursor: pointer;
+    color: $lightTextColor;
+    font-family: $font-family;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    span:first-child {
+      margin-right: 35px;
+    }
+  }
+
+  &__accordion-item {
+    display: none;
+    overflow: hidden;
+    margin-left: 5px;
+    padding: 31px 35px;
+    border-left: 1px solid $lightTextColor;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  &__img-block {
+    flex-shrink: 0;
+    height: 346px;
+    text-align: center;
+  }
+
+  &__img {
+    object-fit: contain;
+    height: 100%;
+    width: auto;
+  }
+}
+
+// max 991.9px
+@media screen and (max-width: $lg) {
+  .reasons {
+    margin-bottom: 45px;
+    .container {
+      padding: 0;
+    }
+
+    &__title {
+      margin-bottom: 18px;
+      margin-right: 20px;
+    }
+
+    &__accordion {
+      min-height: 275px;
+    }
+
+    &__accordion-item {
+      padding: 13px 20px 13px 35px;
+    }
+  }
+}
+
+// max 767.9px
+@media screen and (max-width: $md) {
+  .reasons {
+    padding-top: 0;
+
+    &__content-wrapper {
+      padding: 0;
+      flex-direction: column;
+    }
+
+    &__content {
+      order: 2;
+      padding: 0 20px;
+    }
+
+    &__title {
+      font-size: 24px;
+      line-height: 32px;
+      margin-right: 0;
+    }
+
+    &__accordion {
+      min-height: 203px;
+    }
+
+    &__accordion-item {
+      padding: 13px 0 13px 40px;
+    }
+
+    &__img-block {
+      order: 1;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+// max 575.9px
+@media screen and (max-width: $xs) {
+  .reasons {
+    &__accordion {
+      min-height: 251px;
+    }
+  }
+}
+
+// max 359.9px
+@media screen and (max-width: $xxs) {
+  .reasons {
+    &__accordion {
+      min-height: 275px;
+    }
+
+    &__img-block {
+      max-height: 230px;
+      overflow: hidden;
+      height: auto;
+    }
+
+    &__img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+/********* REASONS END ***********/

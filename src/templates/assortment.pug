@@ -1,0 +1,172 @@
+section.assortment#assortment
+    .container
+        h3.assortment__title= assortmentContent.title
+        .assortment__grid
+            each card in assortmentContent.cards
+                div(data-id=card.id class="assortment__card-" + card.additional_class + " " + "assortment__card")
+                    .assortment__card-content-wrapper
+                        .assortment__card-content
+                            div
+                                h4.assortment__card-title= card.title
+                                p.assortment__card-text= card.text
+                            div
+                                p.al-cost-promo= `${LANG.oldPrice}${LANG.currency}`
+                                    span.assortment__cost-promo-line
+                                p.al-cost= `${LANG.price}${LANG.currency}`
+                                .assortment__card-sizes-wrapper
+                                    p.assortment__card-sizes-text= assortmentContent.sizes_text
+                                    p.assortment__card-sizes
+                                        each size in assortmentContent.sizes
+                                            span(class="assortment__card-size" + size.class_ending)= size.size
+                                .assortment__card-count-wrapper
+                                    p.assortment__card-count-text= assortmentContent.count_text
+                                    p.assortment__card-count
+                                        span.assortment__card-count-subtract.js_dec-item= "-"
+                                        span.assortment__card-count-number= assortmentContent.count_number
+                                        span.assortment__card-count-add.js_inc-item= "+"
+                        img&attributes(card.img).assortment__card-img
+                    .assortment__card-footer
+                        button.button-action.button.js_card-btn= assortmentContent.btn
+                            .assortment__card-btn-icon
+                                img&attributes(assortmentContent.btn_img).assortment__card-btn-img
+                        .assortment__card-bin-btn.js_card-remove
+                            svg(class="assortment__card-bin-btn-img" width="22" height="25" viewBox="0 0 22 25" fill="none" xmlns="http://www.w3.org/2000/svg")
+                              g#trash
+                                rect(x="3.89334" y="4.37292" width="13.7502" height="18.877" class="stroke" stroke-width="2")
+                                path(d="M0.00762939 4.08069H21.5922" class="stroke" stroke-width="2")
+                                path(d="M8.08713 8.09106V19.8859" class="stroke" stroke-width="2")
+                                path(d="M14.3227 3.27302V3.27302C14.3227 2.15574 13.4169 1.25 12.2996 1.25H9.23725C8.11997 1.25 7.21423 2.15574 7.21423 3.27302V3.27302" class="stroke" stroke-width="2")
+                                path(d="M13.1589 8.09106V19.8859" class="stroke" stroke-width="2")
+                        a(class="assortment__card-link" href=assortmentContent.link_path)
+                            span(class="assortment__card-link-text")= assortmentContent.link_text
+                            span.link-arrow
+    .assortment__mobile
+        .container.assortment__container-mobile
+            h3.assortment__title= assortmentContent.title
+            p.assortment__subtitle= assortmentContent.sub_title1
+        - const cardsList = assortmentContent.cards
+        - cardsList.sort((a,b)=>{return a.id - b.id})
+        .js_productSlider
+            each val in cardsList
+                if val.id <= 7
+                    div(data-id=val.id class="assortment__card-" + val.additional_class + " " + "assortment__card")
+                        .assortment__card-content
+                            h4.assortment__card-title= val.title
+                            .assortment__card-content-block
+                                p.assortment__card-text= val.text
+                                .assortment__card-content-main
+                                    .assortment__cost-wrapper
+                                        p.al-cost-promo= `${LANG.oldPrice}${LANG.currency}`
+                                            span.assortment__cost-promo-line
+                                        p.al-cost= `${LANG.price}${LANG.currency}`
+                                    img&attributes(val.img).assortment__card-img
+                                .assortment__card-sizes-wrapper
+                                    p.assortment__card-sizes-text= assortmentContent.sizes_text
+                                    p.assortment__card-sizes
+                                        each size in assortmentContent.sizes
+                                            span(class="assortment__card-size" + size.class_ending)= size.size
+                                .assortment__card-count-wrapper
+                                    p.assortment__card-count-text= assortmentContent.count_text
+                                    p.assortment__card-count
+                                        span.assortment__card-count-subtract.js_dec-item= "-"
+                                        span.assortment__card-count-number= assortmentContent.count_number
+                                        span.assortment__card-count-add.js_inc-item= "+"
+                        .assortment__card-footer
+                            button.button-action.button.js_card-btn= assortmentContent.btn
+                                .assortment__card-btn-icon
+                                    img&attributes(assortmentContent.btn_img).assortment__card-btn-img
+                            .assortment__card-bin-btn.js_card-remove
+                                svg(class="assortment__card-bin-btn-img" width="22" height="25" viewBox="0 0 22 25" fill="none" xmlns="http://www.w3.org/2000/svg")
+                                    rect(x="3.89334" y="4.37292" width="13.7502" height="18.877" class="stroke" stroke-width="2")
+                                    path(d="M0.00762939 4.08069H21.5922" class="stroke" stroke-width="2")
+                                    path(d="M8.08713 8.09106V19.8859" class="stroke" stroke-width="2")
+                                    path(d="M14.3227 3.27302V3.27302C14.3227 2.15574 13.4169 1.25 12.2996 1.25H9.23725C8.11997 1.25 7.21423 2.15574 7.21423 3.27302V3.27302" class="stroke" stroke-width="2")
+                                    path(d="M13.1589 8.09106V19.8859" class="stroke" stroke-width="2")
+                        .assortment__card-link-wrapper
+                            a(class="assortment__card-link" href=assortmentContent.link_path)
+                                span(class="assortment__card-link-text")= assortmentContent.link_text
+                                span.link-arrow
+        .container.assortment__container-mobile
+            p.assortment__subtitle= assortmentContent.sub_title2
+        .js_productSlider
+            each val in cardsList
+                if val.id > 7 && val.id <= 11
+                    div(class=`assortment__card-${val.additional_class} assortment__card` data-id=val.id)
+                        .assortment__card-content
+                            h4.assortment__card-title= val.title
+                            .assortment__card-content-block
+                                p.assortment__card-text= val.text
+                                .assortment__card-content-main
+                                    .assortment__cost-wrapper
+                                        p.al-cost-promo= `${LANG.oldPrice}${LANG.currency}`
+                                            span.assortment__cost-promo-line
+                                        p.al-cost= `${LANG.price}${LANG.currency}`
+                                    img&attributes(val.img).assortment__card-img
+                                .assortment__card-sizes-wrapper
+                                    p.assortment__card-sizes-text= assortmentContent.sizes_text
+                                    p.assortment__card-sizes
+                                        each size in assortmentContent.sizes
+                                            span(class="assortment__card-size" + size.class_ending)= size.size
+                                .assortment__card-count-wrapper
+                                    p.assortment__card-count-text= assortmentContent.count_text
+                                    p.assortment__card-count
+                                        span.assortment__card-count-subtract= "-"
+                                        span.assortment__card-count-number= assortmentContent.count_number
+                                        span.assortment__card-count-add= "+"
+                        .assortment__card-footer
+                            button.button-action.button.js_card-btn= assortmentContent.btn
+                                .assortment__card-btn-icon
+                                    img&attributes(assortmentContent.btn_img).assortment__card-btn-img
+                            .assortment__card-bin-btn.js_card-remove
+                                svg(class="assortment__card-bin-btn-img" width="22" height="25" viewBox="0 0 22 25" fill="none" xmlns="http://www.w3.org/2000/svg")
+                                    rect(x="3.89334" y="4.37292" width="13.7502" height="18.877" class="stroke" stroke-width="2")
+                                    path(d="M0.00762939 4.08069H21.5922" class="stroke" stroke-width="2")
+                                    path(d="M8.08713 8.09106V19.8859" class="stroke" stroke-width="2")
+                                    path(d="M14.3227 3.27302V3.27302C14.3227 2.15574 13.4169 1.25 12.2996 1.25H9.23725C8.11997 1.25 7.21423 2.15574 7.21423 3.27302V3.27302" class="stroke" stroke-width="2")
+                                    path(d="M13.1589 8.09106V19.8859" class="stroke" stroke-width="2")
+                        .assortment__card-link-wrapper
+                            a(class="assortment__card-link" href=assortmentContent.link_path)
+                                span(class="assortment__card-link-text")= assortmentContent.link_text
+                                span.link-arrow
+        .container.assortment__container-mobile
+            p.assortment__subtitle= assortmentContent.sub_title3
+        .js_productSlider
+            each val in cardsList
+                if val.id > 11 && val.id <= 14
+                    div(data-id=val.id class="assortment__card-" + val.additional_class + " " + "assortment__card")
+                        .assortment__card-content
+                            h4.assortment__card-title= val.title
+                            .assortment__card-content-block
+                                p.assortment__card-text= val.text
+                                .assortment__card-content-main
+                                    .assortment__cost-wrapper
+                                        p.al-cost-promo= `${LANG.oldPrice}${LANG.currency}`
+                                            span.assortment__cost-promo-line
+                                        p.al-cost= `${LANG.price}${LANG.currency}`
+                                    img&attributes(val.img).assortment__card-img
+                                .assortment__card-sizes-wrapper
+                                    p.assortment__card-sizes-text= assortmentContent.sizes_text
+                                    p.assortment__card-sizes
+                                        each size in assortmentContent.sizes
+                                            span(class="assortment__card-size" + size.class_ending)= size.size
+                                .assortment__card-count-wrapper
+                                    p.assortment__card-count-text= assortmentContent.count_text
+                                    p.assortment__card-count
+                                        span.assortment__card-count-subtract= "-"
+                                        span.assortment__card-count-number= assortmentContent.count_number
+                                        span.assortment__card-count-add= "+"
+                        .assortment__card-footer
+                            button.button-action.button.js_card-btn= assortmentContent.btn
+                                .assortment__card-btn-icon
+                                    img&attributes(assortmentContent.btn_img).assortment__card-btn-img
+                            .assortment__card-bin-btn.js_card-remove
+                                svg(class="assortment__card-bin-btn-img" width="22" height="25" viewBox="0 0 22 25" fill="none" xmlns="http://www.w3.org/2000/svg")
+                                    rect(x="3.89334" y="4.37292" width="13.7502" height="18.877" class="stroke" stroke-width="2")
+                                    path(d="M0.00762939 4.08069H21.5922" class="stroke" stroke-width="2")
+                                    path(d="M8.08713 8.09106V19.8859" class="stroke" stroke-width="2")
+                                    path(d="M14.3227 3.27302V3.27302C14.3227 2.15574 13.4169 1.25 12.2996 1.25H9.23725C8.11997 1.25 7.21423 2.15574 7.21423 3.27302V3.27302" class="stroke" stroke-width="2")
+                                    path(d="M13.1589 8.09106V19.8859" class="stroke" stroke-width="2")
+                        .assortment__card-link-wrapper
+                            a(class="assortment__card-link" href=assortmentContent.link_path)
+                                span(class="assortment__card-link-text")= assortmentContent.link_text
+                                span.link-arrow

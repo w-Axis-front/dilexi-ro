@@ -1,0 +1,252 @@
+/*********** SIZES *************/
+.sizes {
+  overflow: hidden;
+  margin-bottom: 108px;
+
+  .container {
+    padding: 0 102px;
+  }
+
+  &__title {
+    font-family: $font-family;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 48px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    margin-bottom: 17px;
+  }
+
+  &__subtitle {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    margin-bottom: 64px;
+  }
+
+  &__table-wrapper {
+    padding: 22px;
+    background-color: $lightBgColor;
+    margin: 0 auto;
+    max-width: 995px;
+  }
+
+  &__table {
+    //min-width: 950px;
+  }
+
+  &__row {
+    display: flex;
+    border-bottom: 1px solid rgba(166, 144, 124, 0.4);
+    height: 40px;
+
+    &:last-child {
+      border-bottom: 0 solid transparent;
+    }
+  }
+
+  &__row-titles {
+    height: 47px;
+  }
+
+  &__column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__column1 {
+    width: 21%;
+    text-align: center;
+    border-right: 1px solid rgba(166, 144, 124, 0.4);
+  }
+
+  &__column2 {
+    width: 25%;
+    border-right: 1px solid rgba(166, 144, 124, 0.4);
+  }
+
+  &__column3 {
+    width: 18%;
+    border-right: 1px solid rgba(166, 144, 124, 0.4);
+    text-align: center;
+  }
+
+  &__column4 {
+    width: 17%;
+    border-right: 1px solid rgba(166, 144, 124, 0.4);
+  }
+
+  &__column5 {
+    width: 19%;
+  }
+
+  &__row-content {
+    .sizes__column2 {
+      padding-left: 22px;
+      text-align: left;
+    }
+
+    .sizes__column4 {
+      padding-left: 22px;
+      text-align: left;
+    }
+
+    .sizes__column5 {
+      padding-left: 25px;
+      text-align: left;
+    }
+  }
+
+  &__table-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: $lightTextColor;
+  }
+
+  &__table-text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+  }
+}
+
+// max 991.9px
+@media screen and (max-width: $lg) {
+  .sizes {
+    margin-bottom: 67px;
+
+    .container {
+      padding: 0 20px;
+    }
+
+    &__table-wrapper {
+      padding: 8px 17px 8px 20px;
+      max-width: 734px;
+    }
+
+    //&__table {
+    //  //min-width: 697px;
+    //}
+
+    &__column1 {
+      width: 20%;
+    }
+
+    &__column2 {
+      width: 27%;
+    }
+
+    &__column3 {
+      width: 19%;
+    }
+
+    &__column5 {
+      width: 17%;
+    }
+
+    &__row-content {
+      .sizes__column2 {
+        padding-left: 14px;
+      }
+      .sizes__column2 {
+        padding-left: 13px;
+        text-align: left;
+      }
+      .sizes__column2 {
+        text-align: left;
+        padding-left: 13px;
+      }
+      .sizes__column4 {
+        padding-left: 0;
+      }
+      .sizes__column5 {
+        padding-left: 11px;
+        text-align: left;
+      }
+    }
+
+    &__table-title {
+      font-size: 14px;
+      line-height: 18px;
+    }
+
+    &__table-text {
+      font-size: 16px;
+    }
+  }
+}
+
+// max 767.9px
+@media screen and (max-width: $md) {
+  .sizes {
+    &__table-scrollable {
+      overflow: auto;
+      padding-bottom: 12px;
+
+      &::-webkit-scrollbar {
+        height: 6px;
+        border-width: 2px;
+        cursor: pointer;
+      }
+
+      &::-webkit-scrollbar-button {
+        display: none;
+        background-color: transparent;
+      }
+
+      &::-webkit-scrollbar-track {
+        border-radius: 2px;
+      }
+
+      &::-webkit-scrollbar-track-piece {
+        background-color: rgba(166, 144, 124, 0.5);
+        border-color: $lightColor;
+        border-width: 2px 0;
+        border-style: solid;
+        margin: 0 20px;
+      }
+
+      &::-webkit-scrollbar-corner {
+        background-color: transparent;
+        display: none;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: $mainColor;
+        cursor: pointer;
+        border-radius: 2px;
+      }
+
+      &::-webkit-resizer {
+        background-color: transparent;
+        display: none;
+      }
+    }
+
+    &__table-wrapper {
+      max-width: none;
+      width: 734px;
+      margin: 0;
+    }
+  }
+}
+
+// max 575.9px
+@media screen and (max-width: $xs) {
+  .sizes {
+    &__title {
+      font-size: 28px;
+      margin-bottom: 0;
+    }
+
+    &__subtitle {
+      margin-bottom: 13px;
+    }
+  }
+}
+/********* SIZES END ***********/

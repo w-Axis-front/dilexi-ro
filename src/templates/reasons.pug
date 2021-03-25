@@ -1,0 +1,17 @@
+- const reasonsContent = LANG.reasons;
+
+section.reasons#reasons
+    .container
+        .reasons__content-wrapper
+            .reasons__content
+                h2.reasons__title= reasonsContent.title
+                #js_accordion.reasons__accordion
+                    each reason, idx in reasonsContent.accordion
+                        h3.reasons__accordion-trigger
+                            span= `${idx + 1}.`
+                            span= reason.title
+                        .reasons__accordion-item
+                            p= reason.text
+            .reasons__img-block
+                img&attributes(reasonsContent.img).reasons__img
+

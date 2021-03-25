@@ -1,0 +1,32 @@
+- const sizesContent = LANG.sizes;
+
+section.sizes#sizes
+    .container
+        h2.sizes__title= sizesContent.title
+        p.sizes__subtitle= sizesContent.subtitle
+    .sizes__table-scrollable
+        .sizes__table-wrapper
+            .sizes__table
+                .sizes__row.sizes__row-titles
+                    .sizes__column1.sizes__column
+                        p.sizes__table-title= sizesContent.table_title1
+                    .sizes__column2.sizes__column
+                        p.sizes__table-title= sizesContent.table_title2
+                    .sizes__column3.sizes__column
+                        p.sizes__table-title= sizesContent.table_title3
+                    .sizes__column4.sizes__column
+                        p.sizes__table-title= sizesContent.table_title4
+                    .sizes__column5.sizes__column
+                        p.sizes__table-title= sizesContent.table_title5
+                each row in sizesContent.rows
+                    .sizes__row.sizes__row-content
+                        .sizes__column1.sizes__column
+                            p.sizes__table-text= row.text1
+                        .sizes__column2.sizes__column
+                            p.sizes__table-text= row.text2
+                        .sizes__column3.sizes__column
+                            p.sizes__table-text= row.text3
+                        .sizes__column4.sizes__column
+                            p.sizes__table-text= row.text4
+                        .sizes__column5.sizes__column
+                            p.sizes__table-text= row.text5

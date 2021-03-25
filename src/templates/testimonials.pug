@@ -1,0 +1,26 @@
+- const testimonialsContent = LANG.testimonials;
+
+section.testimonials#testimonials
+    .container
+        h2.testimonials__title= testimonialsContent.title
+        #js_testimonialsSlider
+            each slide in testimonialsContent.slides
+                .testimonials__slide-content-wrapper
+                    .testimonials__slide-content
+                        if slide.img1
+                            .testimonials__slide-images-wrapper
+                                .testimonials__slide-icons-wrapper
+                                    if slide.img1
+                                        .testimonials__slide-icon-wrapper
+                                            img&attributes(slide.img1).testimonials__slide-img-icon
+                                    if slide.img2
+                                        .testimonials__slide-icon-wrapper
+                                            img&attributes(slide.img2).testimonials__slide-img-icon
+                                    if slide.img3
+                                        .testimonials__slide-icon-wrapper
+                                            img&attributes(slide.img3).testimonials__slide-img-icon
+                                if slide.img1
+                                    img&attributes(slide.img1).testimonials__slide-img
+                        .testimonials__slide-testimonial
+                            p.testimonials__slide-customer-name= slide.customer_name
+                            p.testimonials__slide-text= slide.text
