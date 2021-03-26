@@ -89,9 +89,9 @@
   },
   "assortment": {
     "title": "Alegeți culoarea preferată",
-    "sub_title1": "Яркие",
-    "sub_title2": "Пастель",
-    "sub_title3": "Монохром",
+    "sub_title1": "Aprinse",
+    "sub_title2": "Pastel",
+    "sub_title3": "Monocrom",
     "cards": [
       {
         "title": "Orhideea delicată de lavandă",
@@ -306,7 +306,7 @@
       "alt": "Bag"
     },
     "link_path": "#order",
-    "link_text": "Перейти к форме заказа"
+    "link_text": "Accesați formularul de comandă"
   },
   "promotion": {
     "title": "Stoc!",
@@ -571,7 +571,7 @@
       "alt": "Gift",
       "srcset": "img/gift@2x.png 2x"
     },
-    "gift_title": "Станьте участником акции. Выберите еще одну блузу и получите третью В ПОДАРОК!",
+    "gift_title": "Deveniți un participant la acțiune. Alegeți încă o bluză și obțineți a treia CADOU!",
     "gift_title_won": "Ai comandat două bluze și vei primi o a treia bluză CADOU!",
     "gift_text": "Culoarea bluzei promoționale va fi specificată de operatorul nostru",
     "table_title1": "Denumirea",
@@ -584,7 +584,7 @@
       "alt": "Bin"
     },
     "total_promo_text": "Preț fără reducere:",
-    "total": "€0",
+    "total": 0,
     "total_text": "Valoarea totală a comenzii:",
     "name_placeholder": "Nume",
     "phone_placeholder": "Telefon",

@@ -53,10 +53,10 @@ section.order#order
         .order_size-error= orderContent.no_size_err
     p.order__total-promo
       span= orderContent.total_promo_text
-      span.js__total-promo-price= orderContent.total
+      span.js__total-promo-price= `${orderContent.total} ${LANG.currency}`
     p.order__total
       span= orderContent.total_text
-      span.js__total-price= orderContent.total
+      span.js__total-price= `${orderContent.total} ${LANG.currency}`
     .order__empty-cart-err-wrapper
       p#order__empty-cart-err= orderContent.empty_cart_err
     form(class="order__form al-form" action="/land/order" method="POST")
