@@ -688,6 +688,17 @@
     &__card-link-text {
       font-size: 14px;
     }
+}
+}
+
+@media screen and (max-width: 413.9px) {
+  .assortment{
+    &__card-content-main {
+    justify-content: space-between;
+}
+&__cost-wrapper {
+  margin-right: 0;
+}
   }
 }
 
@@ -709,6 +720,17 @@
       flex-direction: column;
       justify-content: space-between;
     }
+
+    &__card-content-main {
+      position: relative;
+      justify-content: flex-end;
+  }
+
+  &__cost-wrapper {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
   }
 }
 
