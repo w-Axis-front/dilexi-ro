@@ -172,10 +172,6 @@
   }
 
   &__button {
-    // color: $darkColor;
-    // font-weight: bold;
-    // font-size: 13px;
-    // line-height: 15px;
     background-color: $btnColor;
     overflow: hidden;
     display: inline-block;
@@ -183,6 +179,22 @@
     width: 100%;
     height: 100%;
     text-align: center;
+  }
+
+  &__button-text-content {
+    position: absolute;
+    object-fit: contain;
+    width: 99px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+
+    .svg-fill {
+      fill: $darkColor;
+      transition: .3s;
+    }
   }
 
   &__button-text {
@@ -333,6 +345,12 @@
         color: $darkColor;
       }
 
+      &__button-text-content {    
+        .svg-fill {
+          fill: $darkColor;
+        }
+      }
+
       &__button-arrow {
         background-color: $lightColor;
 
@@ -351,6 +369,12 @@
 
       &__button-text {
         color: $lightColor;
+      }
+
+      &__button-text-content {    
+        .svg-fill {
+          fill: $lightColor;
+        }
       }
 
       &__button-arrow {
@@ -484,10 +508,22 @@
       max-width: 95%;
     }
 
+    &__button-text-content {
+      .svg-fill {
+        fill: $lightColor;
+      }
+    }
+
     &__button-wrapper, &__button-wrapper:visited {
       .main {
         &__button {
           animation: rotation 10s infinite linear;
+        }
+
+        &__button-text-content {
+          .svg-fill {
+            fill: $lightColor;
+          }
         }
 
         &__button-text {
@@ -512,6 +548,12 @@
 
         &__button-text {
           color: $darkColor;
+        }
+
+        &__button-text-content {
+          .svg-fill {
+            fill: $darkColor;
+          }
         }
 
         &__button-arrow {
@@ -625,6 +667,10 @@
     &__button {
       font-size: 12px;
       line-height: 14px;
+    }
+
+    &__button-text-content {
+      width: 90px;
     }
 
     &__button-text {

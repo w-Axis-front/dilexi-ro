@@ -2,22 +2,22 @@ export default function animateContent() {
     const rotatedBtns = document.querySelectorAll(".js_rotated-btn");
     const accordion = document.getElementById("js_accordion");
 
-    function enterHandler(rotatedBtnPart, btnText, btnStaticPart, btnStaticPartSVG) {
+    function enterHandler(rotatedBtnPart, btnStaticPart, btnStaticPartSVG, btnStaticPartSVGstroke) {
         rotatedBtnPart.css({"animation": "none 0s infinite linear"});
-        btnText.css({"color": "#000000"});
-        btnStaticPartSVG.css({"stroke": "#000000"});
+        btnStaticPartSVG.css({"fill": "#000000"});
         btnStaticPart.css({"background-color": "#FFFFFF"});
+        btnStaticPartSVGstroke.css({"stroke": "#000000"});
     }
 
-    function leaveHandler(rotatedBtnPart, btnText, btnStaticPart, btnStaticPartSVG, btn) {
+    function leaveHandler(rotatedBtnPart, btnStaticPart, btnStaticPartSVG, btn, btnStaticPartSVGstroke) {
         rotatedBtnPart.css({"animation": "rotation 10s infinite linear"});
-        btnText.css({"color": "#FFFFFF"});
         if (btn.classList.contains("order__gift-button-wrapper")) {
             btnStaticPart.css({"background-color": "#ffb951"});
         } else {
             btnStaticPart.css({"background-color": "#FFDD67"});
         }
-        btnStaticPartSVG.css({"stroke": "#FFFFFF"});
+        btnStaticPartSVG.css({"fill": "#FFFFFF"});
+        btnStaticPartSVGstroke.css({"stroke": "#FFFFFF"});
     }
 
     function rotateBtns(e) {
@@ -25,25 +25,26 @@ export default function animateContent() {
             for (let i = 0; i < rotatedBtns.length; i++) {
                 const rotatedBtn = $(rotatedBtns[i]);
                 const rotatedBtnPart = rotatedBtn.find(".main__button");
-                const btnText = rotatedBtn.find(".main__button-text");
                 const btnStaticPart = rotatedBtn.find(".main__button-arrow");
-                const btnStaticPartSVG = rotatedBtn.find(".stroke");
+                const btnStaticPartSVG = rotatedBtn.find(".svg-fill");
+                const btnStaticPartSVGstroke = rotatedBtn.find(".stroke");
+
                 if (e.matches) {
                     rotatedBtn.on('touchstart', function () {
                         // event.preventDefault();
-                        enterHandler(rotatedBtnPart, btnText, btnStaticPart, btnStaticPartSVG);
+                        enterHandler(rotatedBtnPart, btnStaticPart, btnStaticPartSVG, btnStaticPartSVGstroke);
                     });
 
                     rotatedBtn.on('touchend', function () {
-                        leaveHandler(rotatedBtnPart, btnText, btnStaticPart, btnStaticPartSVG, rotatedBtns[i]);
+                        leaveHandler(rotatedBtnPart, btnStaticPart, btnStaticPartSVG, rotatedBtns[i], btnStaticPartSVGstroke);
                     });
 
                     rotatedBtn.mouseenter(function () {
-                        enterHandler(rotatedBtnPart, btnText, btnStaticPart, btnStaticPartSVG);
+                        enterHandler(rotatedBtnPart, btnStaticPart, btnStaticPartSVG, btnStaticPartSVGstroke);
                     });
 
                     rotatedBtn.mouseleave(function () {
-                        leaveHandler(rotatedBtnPart, btnText, btnStaticPart, btnStaticPartSVG, rotatedBtns[i]);
+                        leaveHandler(rotatedBtnPart, btnStaticPart, btnStaticPartSVG, rotatedBtns[i], btnStaticPartSVGstroke);
                     });
                 }
             }
