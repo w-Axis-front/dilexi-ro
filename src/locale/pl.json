@@ -1,0 +1,624 @@
+{
+  "locale": "pl",
+  "price": 159,
+  "oldPrice": 318,
+  "currency": "zl",
+  "nav": [
+    {
+      "nav_path": "Bluzki Dilexi",
+      "nav_link": "#reasons"
+    },
+    {
+      "nav_path": "Asortyment",
+      "nav_link": "#assortment"
+    },
+    {
+      "nav_path": "Promocja",
+      "nav_link": "#promotion"
+    },
+    {
+      "nav_path": "Rozmiary",
+      "nav_link": "#sizes"
+    },
+    {
+      "nav_path": "Opinie",
+      "nav_link": "#testimonials"
+    },
+    {
+      "nav_path": "Zamawiam",
+      "nav_link": "#order"
+    }
+  ],
+  "main": {
+    "logo_path": "/",
+    "logo": "Dilexi",
+    "promotion1": "-75%",
+    "promotion2": "na bluze!",
+    "timer_text": "Do końca promocji zostaje:",
+    "remaining_time": "00",
+    "seconds": "sekund",
+    "hours": "godzin",
+    "minutes": "minut",
+    "text": "Pospiesz się i zamów modne\n uniwersalne bluzki w super cenie!",
+    "img": {
+      "src": "img/main.jpg",
+      "alt": "Girl",
+      "srcset": "img/main@2x.jpg 2x"
+    },
+    "title": "Likwidacja magazynu włoskiej marki Dilexi!",
+    "btn": [
+      "W",
+      "Y",
+      "B",
+      "I",
+      "E",
+      "R",
+      "Z",
+      "B",
+      "L",
+      "U",
+      "Z",
+      "K",
+      "Ę"
+    ],
+    "btn_text": "WYBIERZ BLUZKĘ",
+    "btn_path": "#assortment"
+  },
+  "reasons": {
+    "title": "4 powody, dla których warto zamówić bluzkę Dilexi:",
+    "accordion": [
+      {
+        "title": "Wygodna",
+        "text": "Mieszanka bawełny i poliestru jest przyjemna dla ciała, a samą bluzkę można nosić zarówno latem, jak i w okresie międzysezonowym."
+      },
+      {
+        "title": "Uniwersalna",
+        "text": "Wysoki kołnierz, nietoperzowe rękawy, jednolity kolor i luźny krój są idealne dla każdego typu sylwetki."
+      },
+      {
+        "title": "Praktyczna",
+        "text": "Produkt nie wymaga skomplikowanej pielęgnacji, tkanina wytrzymuje długie noszenie i wielokrotne pranie, zachowując kolor i jakość."
+      },
+      {
+        "title": "Stylowa",
+        "text": "Ta bluzka będzie świetnym dodatkiem do każdej stylizacji - casualowej, romantycznej, sportowej, minimalistycznej itp."
+      }
+    ],
+    "img": {
+      "src": "img/reasons.jpg",
+      "alt": "Girl photo",
+      "srcset": "img/reasons.jpg 2x"
+    }
+  },
+  "assortment": {
+    "title": "Wybierz swój ulubiony kolor",
+    "sub_title1": "Jasne",
+    "sub_title2": "Pastelowe",
+    "sub_title3": "Monochromatyczne",
+    "cards": [
+      {
+        "title": "Delikatnie-lawendowa Storczyk",
+        "id": 11,
+        "additional_class": "pastel4",
+        "img": {
+          "src": "img/products/pastel/pastel_4.png",
+          "alt": "Pastel blouse",
+          "srcset": "img/products/pastel/pastel_4@2x.png 2x"
+        },
+        "text": "Wyśmienity jasny odcień lawendowy jest idealny dla romantycznych i wrażliwych natur."
+      },
+      {
+        "title": "Ciemnofioletowa Pinotage",
+        "id": 1,
+        "additional_class": "bright2",
+        "img": {
+          "src": "img/products/bright/bright_2.png",
+          "alt": "Bright blouse",
+          "srcset": "img/products/bright/bright_2@2x.png 2x"
+        },
+        "text": "Nasycony ciemnofioletowy kolor jest często wybierany przez kreatywnych ludzi, powinnaś zainspirować się nim również i Ty."
+      },
+      {
+        "title": "Intensywna wiśnia Besseya",
+        "id": 4,
+        "additional_class": "bright5",
+        "img": {
+          "src": "img/products/bright/bright_5.png",
+          "alt": "Bright blouse",
+          "srcset": "img/products/bright/bright_5@2x.png 2x"
+        },
+        "text": "Ciemną wiśnię można łatwo łączyć z innymi odcieniami i nadać wyglądowi szlachetną nutę."
+      },
+      {
+        "title": "Jasnoczerwona Orient",
+        "id": 0,
+        "additional_class": "bright1",
+        "img": {
+          "src": "img/products/bright/bright_1.png",
+          "alt": "Bright blouse",
+          "srcset": "img/products/bright/bright_1@2x.png 2x"
+        },
+        "text": "Ognisty kolor dla odważnych dziewczyn, które są gotowe na zwiększoną męską uwagę."
+      },
+      {
+        "title": "Matowa biała Łubin",
+        "id": 12,
+        "additional_class": "monochrome1",
+        "img": {
+          "src": "img/products/monochrome/monochrome_1.png",
+          "alt": "Monochromatic blouse",
+          "srcset": "img/products/monochrome/monochrome_1@2x.png 2x"
+        },
+        "text": "Uniwersalny szlachetny kolor odpowiedni do każdej sytuacji, czy to do biura, czy na pierwszą randkę."
+      },
+      {
+        "title": "Musztardowo-żółta Meyer",
+        "id": 5,
+        "additional_class": "bright6",
+        "img": {
+          "src": "img/products/bright/bright_6.png",
+          "alt": "Bright blouse",
+          "srcset": "img/products/bright/bright_6@2x.png 2x"
+        },
+        "text": "Odcienie żółtego koloru rozweselają nie tylko otoczenie, ale także tych, którzy go noszą."
+      },
+      {
+        "title": "Zielonkawo-oliwkowa Hedera",
+        "id": 7,
+        "additional_class": "bright8",
+        "img": {
+          "src": "img/products/bright/bright_8.png",
+          "alt": "Bright blouse",
+          "srcset": "img/products/bright/bright_8@2x.png 2x"
+        },
+        "text": "Magnetyczny zielony kolor będzie powiewem świeżego powietrza w dusznej metropolii."
+      },
+      {
+        "title": "Węglowo-czarna Corax",
+        "id": 14,
+        "additional_class": "monochrome3",
+        "img": {
+          "src": "img/products/monochrome/monochrome_3.png",
+          "alt": "Monochromatic blouse",
+          "srcset": "img/products/monochrome/monochrome_3@2x.png 2x"
+        },
+        "text": "Podstawowa czerń nie tylko wyszczupla i optycznie wydłuża sylwetkę, ale także można ją łatwo połączyć z dowolnym elementem garderoby."
+      },
+      {
+        "title": "Lazurowo-niebieska Indigo",
+        "id": 2,
+        "additional_class": "bright3",
+        "img": {
+          "src": "img/products/bright/bright_3.png",
+          "alt": "Bright blouse",
+          "srcset": "img/products/bright/bright_3@2x.png 2x"
+        },
+        "text": "Chłodny kobaltowo-niebieski odcień jest idealny do biznesowego wyglądu i dodaje pewności siebie."
+      },
+      {
+        "title": "Szara Stanum",
+        "id": 13,
+        "additional_class": "monochrome2",
+        "img": {
+          "src": "img/products/monochrome/monochrome_2.png",
+          "alt": "Monochromatic blouse",
+          "srcset": "img/products/monochrome/monochrome_2@2x.png 2x"
+        },
+        "text": "Jasne, grafitowe odcienie łączą w sobie elegancję i tajemniczość."
+      },
+      {
+        "title": "Miętowo-zielona Mentol",
+        "id": 3,
+        "additional_class": "bright4",
+        "img": {
+          "src": "img/products/bright/bright_4.png",
+          "alt": "Bright blouse",
+          "srcset": "img/products/bright/bright_4@2x.png 2x"
+        },
+        "text": "Odcień leśnej nimfy doda Twojemu życiu kolorów i magii."
+      },
+      {
+        "title": "Delikatna piaskowa Migdał",
+        "id": 10,
+        "additional_class": "pastel3",
+        "img": {
+          "src": "img/products/pastel/pastel_3.png",
+          "alt": "Pastel blouse",
+          "srcset": "img/products/pastel/pastel_3@2x.png 2x"
+        },
+        "text": "Ciepły delikatny kolor subtelnie podkreśli naturalne piękno i nie będzie zwracał na siebie uwagi."
+      },
+      {
+        "title": "Matowa niebieska Lobelia",
+        "id": 6,
+        "additional_class": "bright7",
+        "img": {
+          "src": "img/products/bright/bright_7.png",
+          "alt": "Bright blouse",
+          "srcset": "img/products/bright/bright_7@2x.png 2x"
+        },
+        "text": "Głęboki błękit emanuje królewskim szykiem - nikt nie odgadnie prawdziwej ceny tej bluzki."
+      },
+      {
+        "title": "Szaro-beżowa Ivory",
+        "id": 8,
+        "additional_class": "pastel1",
+        "img": {
+          "src": "img/products/pastel/pastel_1.png",
+          "alt": "Pastel blouse",
+          "srcset": "img/products/pastel/pastel_1@2x.png 2x"
+        },
+        "text": "Pastelowy kolor uosabia spokój i ciszę, a także wygląda dobrze w każdej kombinacji."
+      },
+      {
+        "title": "Błękitna Phoebe",
+        "id": 9,
+        "additional_class": "pastel2",
+        "img": {
+          "src": "img/products/pastel/pastel_2.png",
+          "alt": "Pastel blouse",
+          "srcset": "img/products/pastel/pastel_2@2x.png 2x"
+        },
+        "text": "Czysty i szlachetny odcień pomaga odnaleźć harmonię i z uśmiechem wkroczyć w nowy dzień."
+      }
+    ],
+    "sizes_text": "Rozmiar:",
+    "count_text": "Liczba sztuk:",
+    "count_number": 1,
+    "sizes": [
+      {
+        "size": "S",
+        "class_ending": "-s"
+      },
+      {
+        "size": "M",
+        "class_ending": "-m"
+      },
+      {
+        "size": "L",
+        "class_ending": "-l"
+      },
+      {
+        "size": "XL",
+        "class_ending": "-xl"
+      },
+      {
+        "size": "XXL",
+        "class_ending": "-xxl"
+      },
+      {
+        "size": "XXXL",
+        "class_ending": "-xxxl"
+      },
+      {
+        "size": "4XL",
+        "class_ending": "-4xl"
+      },
+      {
+        "size": "5XL",
+        "class_ending": "-5xl"
+      },
+      {
+        "size": "6XL",
+        "class_ending": "-6xl"
+      }
+    ],
+    "btn": "Kup teraz",
+    "btn_img": {
+      "src": "img/svg/bag.svg",
+      "alt": "Bag"
+    },
+    "link_path": "#order",
+    "link_text": "Przejdź do formularza zamówienia"
+  },
+  "promotion": {
+    "title": "PROMOCJA!",
+    "terms": "1+1=3",
+    "subtitle": "Wahasz się, który kolor wybrać? Zamów dwie bluzki i otrzymaj trzecią W PREZENCIE!",
+    "note": "* Kupując od dwóch sztuk produktu automatycznie zostajesz objęty promocją, i trzecią bluzkę otrzymujesz w prezencie. Podczas składania zamówienia nasz operator zadzwoni aby potwierdzić żądany kolor i rozmiar.",
+    "img": {
+      "src": "img/promotion.jpg",
+      "alt": "Promotion",
+      "srcset": "img/promotion@2x.jpg 2x"
+    }
+  },
+  "sizes": {
+    "title": "Tabela rozmiarów",
+    "subtitle": "Nie jesteś pewna rozmiaru? Sprawdź naszą tabelę",
+    "table_title1": "Rozmiar międzynarodowy",
+    "table_title2": "Rozmiar narodowy",
+    "table_title3": "Obwód klatki piersiowej",
+    "table_title4": "Długość rękawa",
+    "table_title5": "Długość produktu",
+    "rows": [
+      {
+        "text1": "S",
+        "text2": "US: 4 / UK: 8 / EU: 34",
+        "text3": "98 cm / 38.6″",
+        "text4": "27 cm / 10.6″",
+        "text5": "67 cm / 26.4″"
+      },
+      {
+        "text1": "M",
+        "text2": "US: 6 / UK: 10 / EU: 36",
+        "text3": "102 cm / 40.2″",
+        "text4": "28 cm / 11.0″",
+        "text5": "68 cm / 26.8″"
+      },
+      {
+        "text1": "L",
+        "text2": "US: 8 / UK: 12 / EU: 38",
+        "text3": "106 cm / 41.7″",
+        "text4": "29 cm / 11.4″",
+        "text5": "69 cm / 27.2″"
+      },
+      {
+        "text1": "XL",
+        "text2": "US: 8 / UK: 12 / EU: 38",
+        "text3": "110 cm / 43.3″",
+        "text4": "30 cm / 11.8″",
+        "text5": "70 cm / 27.6″"
+      },
+      {
+        "text1": "XXL",
+        "text2": "US: 10 / UK: 14 / EU: 40",
+        "text3": "114 cm / 44.9″",
+        "text4": "31 cm / 12.2″",
+        "text5": "71 cm / 30.0″"
+      },
+      {
+        "text1": "XXXL",
+        "text2": "US: 12 / UK: 16 / EU: 42",
+        "text3": "120 cm / 47.2″",
+        "text4": "32 cm / 12.6″",
+        "text5": "72 cm / 30.4″"
+      },
+      {
+        "text1": "4XL",
+        "text2": "US: 12 / UK: 16 / EU: 42",
+        "text3": "124 cm / 48.8″",
+        "text4": "33 cm / 13.0″",
+        "text5": "73 cm / 30.8″"
+      },
+      {
+        "text1": "5XL",
+        "text2": "US: 14 / UK: 18 / EU: 44",
+        "text3": "128 cm / 50.4″",
+        "text4": "34 cm / 13.4″",
+        "text5": "74 cm / 31.2″"
+      },
+      {
+        "text1": "6XL",
+        "text2": "US: 16 / UK: 20 / EU: 46",
+        "text3": "132 cm / 51.97″",
+        "text4": "35 cm / 13.8″",
+        "text5": "75 cm / 29.53″"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Noszą już bluzki Dilexi",
+    "slides": [
+      {
+        "customer_name": "Stanisław Zalewski",
+        "text": "Miła rzecz! Super szybka dostawa, wszystko dotarło na czas - podarowałem żonie na święto, jest szczęśliwa.",
+        "img1": {
+          "src": "img/testimonials/1_1.jpg",
+          "alt": "Customer photo 1",
+          "srcset": "img/testimonials/1_1@2x.jpg 2x"
+        },
+        "img2": {
+          "src": "img/testimonials/1_2.jpg",
+          "alt": "Customer photo 2",
+          "srcset": "img/testimonials/1_2@2x.jpg 2x"
+        },
+        "img3": {
+          "src": "img/testimonials/1_3.jpg",
+          "alt": "Customer photo 3",
+          "srcset": "img/testimonials/1_3@2x.jpg 2x"
+        }
+      },
+      {
+        "customer_name": "Sylwia Dąbrowska",
+        "text": "Podoba mi się, naprawdę fajna bluzka !! Jest stylowa i wygodna, a ja generalnie uwielbiam tę bawełnianą tkaninę. jak myślicie,  ten kolor mi pasuje?",
+        "img1": {
+          "src": "img/testimonials/2_1.jpg",
+          "alt": "Customer photo 1",
+          "srcset": "img/testimonials/2_1@2x.jpg 2x"
+        },
+        "img2": {
+          "src": "img/testimonials/2_2.jpg",
+          "alt": "Customer photo 2",
+          "srcset": "img/testimonials/2_2@2x.jpg 2x"
+        }
+      },
+      {
+        "customer_name": "Danuta Gontarek",
+        "text": "Zamówiłam dwie bluzki w kolorze szarym i żółtym, jakość materiału jest BARDZO dobra. Styl normalny, długość umiarkowana, kolor soczysty… co jeszcze potrzeba…"
+      },
+      {
+        "customer_name": "Wanda Jędruszkiewicz",
+        "text": "Otrzymałam, przymierzyłam….super!!! Dziewczyny, jestem bardzo zadowolona...wszystko mi pasuje - zamawiajcie, nie pożałujecie! Będziemy nosić do pracy z przyjemnością!!!!",
+        "img1": {
+          "src": "img/testimonials/4_1.jpg",
+          "alt": "Customer photo 1",
+          "srcset": "img/testimonials/4_1@2x.jpg 2x"
+        },
+        "img2": {
+          "src": "img/testimonials/4_2.jpg",
+          "alt": "Customer photo 2",
+          "srcset": "img/testimonials/4_2@2x.jpg 2x"
+        },
+        "img3": {
+          "src": "img/testimonials/4_3.jpg",
+          "alt": "Customer photo 3",
+          "srcset": "img/testimonials/4_3@2x.jpg 2x"
+        }
+      },
+      {
+        "customer_name": "Wioletta Daszkiewicz",
+        "text": "Kupiłam to w pięciu kolorach, nie mogłam się zdecydować :))). Podzielcie się z czym to nosić?"
+      },
+      {
+        "customer_name": "Anna Królikowska",
+        "text": "Długo wybierałam, zdecydowałam się kupić niebieski, jest dobry, ale kolor na zdjęciu jest bardziej soczysty ...chociaż może nadszedł czas aby odzwyczaić się od jaskrawych kolorów? A więc - wszystko jest ok zamówiłam XL na 48",
+        "img1": {
+          "src": "img/testimonials/6_1.jpg",
+          "alt": "Customer photo 1",
+          "srcset": "img/testimonials/6_1@2x.jpg 2x"
+        }
+      },{
+        "customer_name": "Dominika Pabian",
+        "text": "Otrzymałam towar w ciągu 2 tygodni. Tkanina to mieszanka poliestru z bawełną, nieprzeźroczysta, przyjemna dla ciała. Co myślicie o kolorze musztardy? Moim zdaniem jest idealny dla brunetek.",
+        "img1": {
+          "src": "img/testimonials/7_1.jpg",
+          "alt": "Customer photo 1",
+          "srcset": "img/testimonials/7_1@2x.jpg 2x"
+        },
+        "img2": {
+          "src": "img/testimonials/7_2.jpg",
+          "alt": "Customer photo 2",
+          "srcset": "img/testimonials/7_2@2x.jpg 2x"
+        },
+        "img3": {
+          "src": "img/testimonials/7_3.jpg",
+          "alt": "Customer photo 3",
+          "srcset": "img/testimonials/7_3@2x.jpg 2x"
+        }
+      },{
+        "customer_name": "Grażyna Bielawska",
+        "text": "Świetna jakość, najważniejsze jest to, że rozmiar pasuje!!! Bardzo się cieszę, wielkie dzięki sprzedawcy i recenzjom, szczerze nie spodziewałam się, że tak dobrze na mnie będzie wyglądać))))"
+      },{
+        "customer_name": "Maria Socha",
+        "text": "Towar odpowiada opisowi, gruba tkanina, miękka, wysokiej jakości krawiectwo, zamówiłam w dwóch kolorach. Będę nosić.",
+        "img1": {
+          "src": "img/testimonials/9_1.jpg",
+          "alt": "Customer photo 1",
+          "srcset": "img/testimonials/9_1@2x.jpg 2x"
+        }
+      },{
+        "customer_name": "Agnieszka Szymczak",
+        "text": "bluzka świetnej jakości, a także nieoczekiwanie ... kolor jak na zdjęciu! Rzadko mam tyle szczęścia( mam rozmiar 52, zamówiłam XXL, leży jak ulał. Dziękuję!"
+      },{
+        "customer_name": "Marlena Maciejewska",
+        "text": "Na mnie bluzka wygląda jak na modelce)) - swobodna, ta bluzka maskuje niedoskonałości i nadaje się na prawie każdą okazję. idealna na lato. Noszę ją do spódnicy lub dżinsów.",
+        "img1": {
+          "src": "img/testimonials/11_1.jpg",
+          "alt": "Customer photo 1",
+          "srcset": "img/testimonials/11_1@2x.jpg 2x"
+        },
+        "img2": {
+          "src": "img/testimonials/11_2.jpg",
+          "alt": "Customer photo 2",
+          "srcset": "img/testimonials/11_2@2x.jpg 2x"
+        }
+      },{
+        "customer_name": "Elżbieta Zębek",
+        "text": "Idealnie pasuje w rozmiarze M, materiał jest przyjemny. Dziękuję.",
+        "img1": {
+          "src": "img/testimonials/12_1.jpg",
+          "alt": "Customer photo 1",
+          "srcset": "img/testimonials/12_1@2x.jpg 2x"
+        },
+        "img2": {
+          "src": "img/testimonials/12_2.jpg",
+          "alt": "Customer photo 2",
+          "srcset": "img/testimonials/12_2@2x.jpg 2x"
+        },
+        "img3": {
+          "src": "img/testimonials/12_3.jpg",
+          "alt": "Customer photo 3",
+          "srcset": "img/testimonials/12_3@2x.jpg 2x"
+        }
+      },{
+        "customer_name": "Marzena Jasińska",
+        "text": "Zamówiłam już drugą bluzkę, bardzo mi się spodobała. Styl i jakość są super, można je nosić codziennie. Ale nie mogę znaleźć dla niej biżuterii.",
+        "img1": {
+          "src": "img/testimonials/13_1.jpg",
+          "alt": "Customer photo 1",
+          "srcset": "img/testimonials/13_1@2x.jpg 2x"
+        },
+        "img2": {
+          "src": "img/testimonials/13_2.jpg",
+          "alt": "Customer photo 2",
+          "srcset": "img/testimonials/13_2@2x.jpg 2x"
+        }
+      },
+      {
+        "customer_name": "Regina Kaczor",
+        "text": "Hurrah!!! otrzymałam, bluzki są super! jestem krawcową, dlatego ciężko mi się zadowolić… gładkie szwy, nie ma wystających nici, powinno tak być, będę czekać na ciepło i będę nosić.))"
+      },
+      {
+        "customer_name": "Emilia Antczak",
+        "text": "Produkt jest dobry pod względem jakości i krawiectwa. Będę go nosić, domyśliłam się idealnie z rozmiarem (wzięłam większy, żeby było luźniej). Tkanina jest gruba, kolor odpowiada, dostawa szybka.",
+        "img1": {
+          "src": "img/testimonials/15_1.jpg",
+          "alt": "Customer photo 1",
+          "srcset": "img/testimonials/15_1@2x.jpg 2x"
+        },
+        "img2": {
+          "src": "img/testimonials/15_2.jpg",
+          "alt": "Customer photo 2",
+          "srcset": "img/testimonials/15_2@2x.jpg 2x"
+        }
+      }
+    ]
+  },
+  "order": {
+    "title": "Pospiesz się i zamów modne uniwersalne bluzki w super cenie!",
+    "subtitle": "Twoje zamówienie:",
+    "number_text": "Liczba sztuk w koszyku:",
+    "number": 0,
+    "img": {
+      "src": "img/gift.png",
+      "alt": "Gift",
+      "srcset": "img/gift@2x.png 2x"
+    },
+    "gift_title": "Zostań uczestnikiem akcji. Wybierz jeszcze jedną bluzkę i dostań trzecią W PREZENCIE!",
+    "gift_title_won": "Zamówiłeś dwie bluzki, a trzecią otrzymasz W PREZENCIE!",
+    "gift_text": "Kolor bluzki promocyjnej określi nasz operator",
+    "table_title1": "Nazwa",
+    "table_title2": "Ilość",
+    "table_title3": "Rozmiar",
+    "table_title4": "Cena",
+    "table_size": "rozmiar",
+    "bin_img": {
+      "src": "img/svg/bin.svg",
+      "alt": "Bin"
+    },
+    "total_promo_text": "Cena bez rabatu:",
+    "total": 0,
+    "total_text": "Całkowita wartość zamówienia:",
+    "name_placeholder": "Imię",
+    "phone_placeholder": "Telefon",
+    "button": "Zamawiam",
+    "empty_cart_err": "Dodaj do koszyka",
+    "no_size_err": "Wybierz rozmiar",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL",
+      "4XL",
+      "5XL",
+      "6XL"
+    ],
+    "btn_path": "#assortment"
+  },
+  "footer": {
+    "up_path": "#pageTop",
+    "logo_path": "/",
+    "logo": "Dilexi",
+    "item1": "Terms & Conditions",
+    "item1_path": "/",
+    "item2": "Privacy Policy",
+    "item2_path": "/",
+    "item3": "Feedback",
+    "item3_path": "/",
+    "copyright1": "2021 Copyright. All rights reserved.",
+    "copyright2": "© TerraLeads",
+    "acceptance": "By clicking the “order” button you confirm that you have read Privat Policy and give your consent to the procession of your personal data"
+  }
+}
