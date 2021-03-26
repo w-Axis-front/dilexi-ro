@@ -54,7 +54,7 @@ export default function countTime() {
         function step() {
             const dt = Date.now() - expected; // the drift (positive for overshooting)
             if (dt > INTERVAL) {
-                console.log('overshooting');
+                // console.log('overshooting');
                 // something really bad happened. Maybe the browser (tab) was inactive?
                 // possibly special handling to avoid futile "catch up" run
             }

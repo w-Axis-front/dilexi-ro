@@ -280,7 +280,7 @@
   .button-action {
     max-width: 160px;
     padding-left: 23px;
-    margin-right: 56px;
+    margin-right: 40px;
     display: inline-block;
 
     &:visited .assortment__card-btn-icon {
@@ -318,7 +318,7 @@
     display: none;
     justify-content: center;
     align-items: center;
-    margin-right: 47px;
+    margin-right: 25px;
     cursor: pointer;
     transition: 0.3s;
 
@@ -357,7 +357,7 @@
       position: relative;
       width: 17px;
       height: 12px;
-      background: transparent url("../../img/svg/arrow-right.svg") 50% 50% /
+      background: transparent url("../img/svg/arrow-right.svg") 50% 50% /
         contain no-repeat;
       transition: 0.3s;
       //margin-left: 0;
@@ -372,7 +372,7 @@
 
       .link-arrow {
         //margin-left: 0;
-        background: transparent url("../../img/svg/arrow-right.svg") 50% 50% /
+        background: transparent url("../img/svg/arrow-right.svg") 50% 50% /
           contain no-repeat;
       }
     }
@@ -387,7 +387,7 @@
 
       .link-arrow {
         //margin-left: 9px;
-        background: transparent url("../../img/svg/arrow-right-hovered.svg") 50%
+        background: transparent url("../img/svg/arrow-right-hovered.svg") 50%
           50% / contain no-repeat;
       }
     }
